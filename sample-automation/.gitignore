@@ -1,0 +1,9 @@
+.idea/
+sample-automation.iml
+.settings
+.classpath
+.project
+.factorypath
+target/
+/.apt_generated/
+.factorypath
