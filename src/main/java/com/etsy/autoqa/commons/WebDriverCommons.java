@@ -5,7 +5,6 @@ import java.util.NoSuchElementException;
 import org.apache.log4j.Logger;
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
-import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
@@ -236,7 +235,8 @@ public class WebDriverCommons {
         try {
             scrollTo(element);
             getHighlightElementYellowColour(element);
-            return element.getText().trim();
+            return element.getText()
+                          .trim();
         } catch (NoSuchElementException nsee) {
 
         } catch (Exception e) {

@@ -1,6 +1,5 @@
 package com.etsy.autoqa;
 
-import java.net.MalformedURLException;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import com.etsy.autoqa.commons.AutomationConstants;
