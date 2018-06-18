@@ -6,4 +6,4 @@ This is a Automaion demo project with
 * Cucumber
 * Maven
 
-To run test case - go to CucumberRunner class and Run As JUnit Test
+Note : To run test case - go to CucumberRunner class and Run As JUnit Test
