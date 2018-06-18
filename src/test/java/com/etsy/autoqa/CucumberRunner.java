@@ -4,7 +4,8 @@ import org.junit.runner.RunWith;
 import cucumber.api.CucumberOptions;
 import cucumber.api.junit.Cucumber;
 
-/**s
+/**
+ * s
  * 
  * @author Auto QA Team
  *

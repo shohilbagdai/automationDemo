@@ -13,5 +13,9 @@ public class ETSYAssertionMessages {
 
     // Page not loaded messages
     public static final String PAGE_NOT_LOADED = "{0} page has not been loaded";
+    
+    //Page name
+    public static final String ETSY_HOME_PAGE = "ETSY home page";
+    public static final String SEARCH_RESULT_PAGE = "Search result page";
 
 }
