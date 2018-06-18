@@ -1,5 +1,6 @@
 package com.etsy.autoqa.commons;
 
+import org.apache.log4j.BasicConfigurator;
 import org.apache.log4j.Logger;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
@@ -36,6 +37,7 @@ public final class WebDriverFactory {
      * @return WebDriver instance
      */
     public static WebDriver startBrowser(String browser, String url) {
+        BasicConfigurator.configure();
         if (browser.equalsIgnoreCase("Firefox")) {
             System.setProperty("webdriver.gecko.driver", "src/main/resources/geckodriver.exe");
             LOGGER.info("starting local firefox...");
