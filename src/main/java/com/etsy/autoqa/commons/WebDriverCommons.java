@@ -2,6 +2,7 @@ package com.etsy.autoqa.commons;
 
 import java.text.MessageFormat;
 import java.util.NoSuchElementException;
+
 import org.apache.log4j.Logger;
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
@@ -223,7 +224,7 @@ public class WebDriverCommons {
                         .window(windowToSwitch);
 
     }
-    
+
     /**
      * 
      * @param element
@@ -245,6 +246,5 @@ public class WebDriverCommons {
         }
         return null;
     }
-
 
 }
