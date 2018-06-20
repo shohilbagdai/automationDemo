@@ -40,6 +40,6 @@ public class Hooks {
             scenario.embed(screenshot, "image/png");
         }
 
-        // WebDriverFactory.quitWebDriver();
+        WebDriverFactory.quitWebDriver();
     }
 }
